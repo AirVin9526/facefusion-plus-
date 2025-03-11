@@ -1,0 +1,3 @@
+# .gitattributes 文件（管理大文件）
+models/realesrgan_x8.pth filter=lfs diff=lfs merge=lfs -text
+models/facefusion/*.onnx filter=lfs diff=lfs merge=lfs -text
