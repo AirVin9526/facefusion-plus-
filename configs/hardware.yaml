@@ -1,0 +1,7 @@
+# Sourcegraph可通过语法高亮识别硬件规则
+gpu:
+  min_memory: 8GB
+  priority: cuda > coreml > cpu
+cpu:
+  max_threads: auto
+  batch_size: 4
